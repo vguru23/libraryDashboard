@@ -1,0 +1,56 @@
+#websiteTitle, #shelfTitle{
+    text-align: center;
+}
+
+* {
+    background-color:#eae69e;
+   
+    font-family: 'Open Sans', sans-serif;
+}
+
+#bookContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 10px;
+}
+
+.book {
+    background-color: 	#83a561;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+  }
+
+  .bookElement {
+    background-color: 	#83a561;
+  }
+
+#addBook {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+::backdrop {
+    background-image: linear-gradient(
+        to bottom right,
+        rgb(187, 204, 221),
+        rgb(255, 255, 255)
+    );
+    opacity: 0.75;
+}
+
+#addBookForm {
+    
+    justify-content: center;
+    align-items: center;
+    height: 150;
+    width: 350px;
+    border-radius: 6px;
+}
+#readBookPrompt {
+    margin: 5px;
+    margin-bottom: 5px;
+}
+
+#addEntry, #cancelEntry {
+    width: 150px;
+}
